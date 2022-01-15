@@ -61,15 +61,19 @@ body {
 .comlogo {
   display: flex;
   justify-content: space-around;
+  /* stransition: width 2s; */
 }
+/* .comlogo:hover {
+  width: 300px;
+} */
 .comlogo img {
   width: 84px;
   height: 25.28px;
 }
-.fa-arrow-right {
+/* .fa-arrow-right {
   color: white;
   width: 16px;
-}
+} */
 /* Second section logo part end */
 /* Third Section start */
 .cardmaindiv {
@@ -97,8 +101,6 @@ body {
   grid-row-gap: 20px;
   width: 329px;
   height: 509px;
-
-  /* margin-top: ; */
 }
 .card {
   box-shadow: 4px 4px 30px;
@@ -111,13 +113,13 @@ body {
 .photoCard img {
   margin-right: 15px;
 }
-.btnsee {
+.btntax {
   color: deeppink;
   text-decoration: none;
-  padding: 10px 15px;
+  margin-top: 50px;
   font-size: 16px;
   font-weight: 700;
-  text-align: center;
+  text-align: end;
   width: 24px;
   height: 24px;
 }
@@ -126,7 +128,6 @@ body {
 /* Footer section design */
 .foot {
   background-color: #0a0826;
-
   text-align: center;
   font-size: 14px;
   font-weight: 700;
