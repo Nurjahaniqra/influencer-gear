@@ -49,12 +49,10 @@ body {
   font-size: 16px;
   font-weight: 700;
   text-align: center;
-}
-.btn-cta-freequote {
-  font-weight: 700;
   width: 24px;
   height: 24px;
 }
+
 /* Second section various com logo */
 .logocontainer {
   width: 80%;
@@ -68,11 +66,60 @@ body {
   width: 84px;
   height: 25.28px;
 }
+.fa-arrow-right {
+  color: white;
+  width: 16px;
+}
 /* Second section logo part end */
 /* Third Section start */
 .cardmaindiv {
   width: 80%;
   margin: 0 auto;
+}
+/* article .card:hover {
+  border: 1px solid blue;
+} */
+.popularsection {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 600;
+}
+.fastar {
+  color: #fb8200;
+  width: 16px;
+  height: 16px;
+}
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: space-between;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  width: 329px;
+  height: 509px;
+
+  /* margin-top: ; */
+}
+.card {
+  box-shadow: 4px 4px 30px;
+  padding-top: 15px;
+  padding-left: 15px;
+  margin-right: 10px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+}
+.photoCard img {
+  margin-right: 15px;
+}
+.btnsee {
+  color: deeppink;
+  text-decoration: none;
+  padding: 10px 15px;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+  width: 24px;
+  height: 24px;
 }
 
 /* Third Section end */
