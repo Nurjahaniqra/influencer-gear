@@ -1,0 +1,113 @@
+body {
+  font-family: "Fugaz One", cursive;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.nav1 {
+  margin-bottom: 145px;
+}
+.nav1 ul li {
+  list-style: none;
+}
+.nav1 ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+  font-weight: 700;
+  margin-left: 95px;
+}
+.product {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+}
+.title {
+  font-size: 52px;
+}
+.details {
+  font-size: 16px;
+}
+.articale {
+  width: 582px;
+  height: 270px;
+}
+.photo {
+  width: 440px;
+  height: 414px;
+}
+.photo img {
+  width: 440px;
+  height: 414px;
+}
+.btn-cta-freequote {
+  background-color: deeppink;
+  color: white;
+  border-radius: 41px;
+  text-decoration: none;
+  padding: 10px 15px;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+}
+.btn-cta-freequote {
+  font-weight: 700;
+  width: 24px;
+  height: 24px;
+}
+/* Second section various com logo */
+.logocontainer {
+  width: 80%;
+  margin: 0 auto;
+}
+.comlogo {
+  display: flex;
+  justify-content: space-around;
+}
+.comlogo img {
+  width: 84px;
+  height: 25.28px;
+}
+/* Second section logo part end */
+/* Third Section start */
+.cardmaindiv {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* Third Section end */
+/* Footer section design */
+.foot {
+  background-color: #0a0826;
+
+  text-align: center;
+  font-size: 14px;
+  font-weight: 700;
+}
+.footerh1 {
+  padding-top: 50px;
+  color: white;
+  font-size: 24px;
+  font-weight: 700;
+}
+.footerh2 {
+  color: white;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.footerh3 a {
+  text-decoration: none;
+  /* background-color: #0a0826; */
+}
+.fa {
+  /* padding: 20px; */
+  font-size: 14px;
+  text-align: center;
+  opacity: 0.7;
+  /* text-decoration: none; */
+  margin: 5px 2px;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+}
